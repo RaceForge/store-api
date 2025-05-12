@@ -1,0 +1,15 @@
+{
+	"name": "race-forge-api",
+	"scripts": {
+		"dev": "wrangler dev",
+		"deploy": "wrangler deploy --minify",
+		"cf-typegen": "wrangler types --env-interface CloudflareBindings"
+	},
+	"dependencies": {
+		"hono": "^4.7.9"
+	},
+	"devDependencies": {
+		"@cloudflare/workers-types": "^4.20250510.0",
+		"wrangler": "^4.14.4"
+	}
+}
